@@ -1,0 +1,101 @@
+# Created to block common mistakes for several tools and languages
+# See: https://github.com/github/gitignore
+# See: https://www.toptal.com/developers/gitignore
+
+# Common binary archives
+*.zip
+*.rar
+*.7z
+*.tgz
+*.gz
+*.bz
+*.xz
+
+# Windows binary
+*.exe
+*.dll
+
+# C / Linux binary
+*.o
+*.obj
+*.a
+*.so
+*.elf
+
+# Java binary
+*.class
+*.jar
+*.war
+*.ear
+
+# Android binary
+.apt_generated/
+.apt_generated_tests/
+*.apk
+*.ap_
+*.dex
+
+# Python build
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.pyc
+
+# Maven build
+target/
+
+# Gradle build
+build/
+.gradle
+
+# NPM
+node_modules/
+
+# Sonar scanner
+.scannerwork/
+
+# Generated files (Eclipse and/or Android SDK)
+bin/
+gen/
+
+# Eclipse generated files
+.settings/
+.classpath
+.project
+.pydevproject
+
+# Jetbrain generated files
+.idea/
+*.iml
+out/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# Logs and temporary files
+log/
+logs/
+tmp/
+temp/
+*~
+*.log
+*.log.*
+*.tmp
+*.bak
+
+# Thumnail cache
+.DS_Store
+Thumbs.db
+
+# JVM crash log and heap dump
+hs_err_pid*
+*.hprof
+
+# Project specific files
