@@ -5,7 +5,7 @@ from time import sleep
 # Designed for Waveshare RP2040-One
 # Should also work on RP2040-Zero, RP2350-Zero, RP250-One
 
-# ----- Constants ------
+# ----- LED colors ------
 BLACK = (  0,   0,   0)
 RED   = (  0, 255,   0)
 GREEN = (255,   0,   0)
