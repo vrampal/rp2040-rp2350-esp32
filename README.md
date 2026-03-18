@@ -5,23 +5,16 @@
 
 Experiments in this repo are designed to run in Adafruit CircuitPython.
 
-Download the latest CircuitPython for you board:
-
-[Waveshare RP2040-Zero](https://circuitpython.org/board/waveshare_rp2040_zero/)
-
-[Waveshare RP2040-One](https://circuitpython.org/board/waveshare_rp2040_one/)
-
-[Waveshare RP2350-Zero](https://circuitpython.org/board/waveshare_rp2350_zero/)
-
-[Waveshare RP2350-One](https://circuitpython.org/board/waveshare_rp2350_one/)
-
-[Raspberry Pi Pico](https://circuitpython.org/board/raspberry_pi_pico/)
-
-[Raspberry Pi Pico W](https://circuitpython.org/board/raspberry_pi_pico_w/)
-
-[Raspberry Pi Pico 2](https://circuitpython.org/board/raspberry_pi_pico2/)
-
-[Raspberry Pi Pico 2 W](https://circuitpython.org/board/raspberry_pi_pico2_w/)
+| Board                  | Type   | Documentation      | CircuitPython     |
+|------------------------|--------|--------------------|-------------------|
+| Waveshare RP2040-Zero  | RP2040 | [Link](https://www.waveshare.com/wiki/RP2040-Zero) | [Link](https://circuitpython.org/board/waveshare_rp2040_zero/)
+| Waveshare RP2040-One   | RP2040 | [Link](https://www.waveshare.com/wiki/RP2040-One) | [Link](https://circuitpython.org/board/waveshare_rp2040_one/)
+| Waveshare RP2350-Zero  | RP2350 | [Link](https://www.waveshare.com/wiki/RP2350-Zero) | [Link](https://circuitpython.org/board/waveshare_rp2350_zero/)
+| Waveshare RP2350-One   | RP2350 | [Link](https://www.waveshare.com/wiki/RP2350-One) | [Link](https://circuitpython.org/board/waveshare_rp2350_one/)
+| Raspberry Pi Pico      | RP2040 | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico/)
+| Raspberry Pi Pico W    | RP2040 | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico_w/)
+| Raspberry Pi Pico 2    | RP2350 | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico2/)
+| Raspberry Pi Pico 2 W  | RP2350 | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico2_w/)
 
 Copy only the libs that you need.
 
