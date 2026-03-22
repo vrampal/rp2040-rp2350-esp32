@@ -25,9 +25,11 @@ You can the latest version of the libs from [Adafruit_CircuitPython_Bundle](http
 | Software/library            | Documentation           | Source             |
 |-----------------------------|-------------------------|--------------------|
 | Adafruit CircuitPython      | [Link](https://docs.circuitpython.org/en/stable/docs/)                | [Link](https://github.com/adafruit/circuitpython)                     |
+| Adafruit ConnectionManager  | [Link](https://docs.circuitpython.org/projects/connectionmanager/en/stable/) | [Link](https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager) |
 | Adafruit Ducky library      | [Link](https://docs.circuitpython.org/projects/ducky/en/stable/)      | [Link](https://github.com/adafruit/Adafruit_CircuitPython_Ducky)      |
 | Adafruit HID library        | [Link](https://docs.circuitpython.org/projects/hid/en/stable/)        | [Link](https://github.com/adafruit/Adafruit_CircuitPython_HID)        |
 | Adafruit HTTPServer library | [Link](https://docs.circuitpython.org/projects/httpserver/en/stable/) | [Link](https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer) |
 | Adafruit MiniMQTT library   | [Link](https://docs.circuitpython.org/projects/minimqtt/en/stable/)   | [Link](https://github.com/adafruit/Adafruit_CircuitPython_MiniMQTT)   |
 | Adafruit NeoPixel library   | [Link](https://docs.circuitpython.org/projects/neopixel/en/stable/)   | [Link](https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel)   |
+| Adafruit Requests           | [Link(https://docs.circuitpython.org/projects/requests/en/stable/)    | [Link](https://github.com/adafruit/Adafruit_CircuitPython_Requests)   |
 | JoystickXL                  | [Link](https://circuitpython-joystickxl.readthedocs.io/en/stable/)    | [Link](https://github.com/fasteddy516/CircuitPython_JoystickXL)       |
