@@ -13,7 +13,7 @@ BLUE  = (  0,   0, 255)
 WHITE = (255, 255, 255)
 
 # ----- Init -----
-pixels = neopixel.NeoPixel(board.GP16, 1, brightness=0.05, auto_write=True)
+pixels = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.05, auto_write=True)
 
 while True:
     pixels[0] = RED

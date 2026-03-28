@@ -6,7 +6,7 @@ from time import sleep
 # Should also work on RP2040-Zero, RP2350-Zero, RP250-One
 
 # ----- Init -----
-pixels = neopixel.NeoPixel(board.GP16, 1, brightness=0.05, auto_write=True)
+pixels = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.05, auto_write=True)
 
 def wheel(hue):
     if hue < 85:
