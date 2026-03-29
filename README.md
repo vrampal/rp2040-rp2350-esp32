@@ -27,7 +27,7 @@ Experiments in this repo are designed to run in Adafruit CircuitPython.
 
 ## Editors with REPL capability
 
-Mu [Repo](https://github.com/mu-editor/mu) [Website](https://codewith.mu/) [Tutorial](https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor)
+Mu Editor [Repo](https://github.com/mu-editor/mu) [Website](https://codewith.mu/) [Tutorial](https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor)
 
 Thonny [Repo](https://github.com/thonny/thonny/) [Website](https://thonny.org/)
 
