@@ -18,8 +18,8 @@ server = Server(
     pool,
     root_path="/static",
     https=True,
-    certfile="selfsigned-pico-ecdsa.pem",
-    keyfile="selfsigned-pico-ecdsa.key",
+    certfile="demo-selfsigned-ecdsa.pem",
+    keyfile="demo-selfsigned-ecdsa.key",
     debug=True
 )
 
