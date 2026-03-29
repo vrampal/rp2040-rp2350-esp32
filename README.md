@@ -1,22 +1,23 @@
 
-# Experiments around RP2040 and RP2350
+# Experiments around RP2040, RP2350 and ESP32
 
 ## CircuitPython
 
 Experiments in this repo are designed to run in Adafruit CircuitPython.
 
-| Vendor       | Board       | CPU    | Flash  | LED            | Documentation         | CircuitPython         |
-|--------------|-------------|--------|--------|----------------|-----------------------|-----------------------|
-| Raspberry Pi | Pico        | RP2040 | 2 MB   | GPIO25         | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico/)
-| Raspberry Pi | Pico W      | RP2040 | 2 MB   | WL_GPIO0       | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico_w/)
-| Raspberry Pi | Pico 2      | RP2350 | 4 MB   | GPIO25         | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico2/)
-| Raspberry Pi | Pico 2 W    | RP2350 | 4 MB   | WL_GPIO0       | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico2_w/)
-| Waveshare    | RP2040-Zero | RP2040 | 2 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2040-Zero)   | [Link](https://circuitpython.org/board/waveshare_rp2040_zero/)
-| Waveshare    | RP2040-One  | RP2040 | 2 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2040-One)    | [Link](https://circuitpython.org/board/waveshare_rp2040_one/)
-| Waveshare    | RP2350-Zero | RP2350 | 4 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2350-Zero)   | [Link](https://circuitpython.org/board/waveshare_rp2350_zero/)
-| Waveshare    | RP2350-One  | RP2350 | 4 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2350-One)    | [Link](https://circuitpython.org/board/waveshare_rp2350_one/)
-| Pimoroni     | Tiny 2040   | RP2040 | 2/8 MB | RGB GP18+19+20 | [Link](https://shop.pimoroni.com/products/tiny-2040) | [Link](https://circuitpython.org/board/pimoroni_tiny2040/)
-| Pimoroni     | Tiny 2350   | RP2350 | 4 MB   | RGB GP18+19+20 | [Link](https://shop.pimoroni.com/products/tiny-2350) | [Link](https://circuitpython.org/board/pimoroni_tiny2350/)
+| Vendor       | Board          | CPU      | Flash  | LED            | Documentation         | CircuitPython         |
+|--------------|----------------|----------|--------|----------------|-----------------------|-----------------------|
+| Raspberry Pi | Pico           | RP2040   | 2 MB   | GPIO25         | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico/)
+| Raspberry Pi | Pico W         | RP2040   | 2 MB   | WL_GPIO0       | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico_w/)
+| Raspberry Pi | Pico 2         | RP2350   | 4 MB   | GPIO25         | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico2/)
+| Raspberry Pi | Pico 2 W       | RP2350   | 4 MB   | WL_GPIO0       | [Link](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) | [Link](https://circuitpython.org/board/raspberry_pi_pico2_w/)
+| Waveshare    | RP2040-Zero    | RP2040   | 2 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2040-Zero)   | [Link](https://circuitpython.org/board/waveshare_rp2040_zero/)
+| Waveshare    | RP2040-One     | RP2040   | 2 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2040-One)    | [Link](https://circuitpython.org/board/waveshare_rp2040_one/)
+| Waveshare    | RP2350-Zero    | RP2350   | 4 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2350-Zero)   | [Link](https://circuitpython.org/board/waveshare_rp2350_zero/)
+| Waveshare    | RP2350-One     | RP2350   | 4 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2350-One)    | [Link](https://circuitpython.org/board/waveshare_rp2350_one/)
+| Pimoroni     | Tiny 2040      | RP2040   | 2/8 MB | RGB GP18+19+20 | [Link](https://shop.pimoroni.com/products/tiny-2040) | [Link](https://circuitpython.org/board/pimoroni_tiny2040/)
+| Pimoroni     | Tiny 2350      | RP2350   | 4 MB   | RGB GP18+19+20 | [Link](https://shop.pimoroni.com/products/tiny-2350) | [Link](https://circuitpython.org/board/pimoroni_tiny2350/)
+| Expressif    | ESP32-S3 N16R8 | ESP32-S3 | 16 MB  | GPIO38         | [Link](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/) | [Link](https://circuitpython.org/board/yd_esp32_s3_n16r8/)
 
 [CircuitPython documentation](https://docs.circuitpython.org/en/stable/)
 
