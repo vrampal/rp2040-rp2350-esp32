@@ -1,12 +1,13 @@
 import board
 import digitalio
+import neopixel
 import os
 import socketpool
 import wifi
 from adafruit_httpserver import JSONResponse, Request, Response, Server
 
-# Define your SSID and password in settings.toml
-# Connection is automatic at boot
+# Define fields CIRCUITPY_WIFI_SSID and CIRCUITPY_WIFI_PASSWORD in settings.toml
+# See: https://docs.circuitpython.org/projects/httpserver/en/stable/starting_methods.html
 
 # --- Initialization ---
 print(f"IP address = {wifi.radio.ipv4_address}")
@@ -41,24 +42,30 @@ def api(request: Request):
         "version":uname.version
     })
 
-led = digitalio.DigitalInOut(board.LED)
-led.direction = digitalio.Direction.OUTPUT
+# ----- LED colors ------
+BLACK = (  0,   0,   0)
+RED   = (  0, 255,   0)
+GREEN = (255,   0,   0)
+BLUE  = (  0,   0, 255)
+WHITE = (255, 255, 255)
+
+pixels = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.05, auto_write=True)
 
 @server.route("/led_on")
 def led_on(request: Request):
-    led.value = True
+    pixels[0] = WHITE
     return Response(request, content_type="text/plain", body="Done")
 
 @server.route("/led_off")
 def led_off(request: Request):
-    led.value = False
+    pixels[0] = BLACK
     return Response(request, content_type="text/plain", body="Done")
 
 # --- Main ---
 host = str(wifi.radio.ipv4_address)
 server.start(host, port=443)
 while True:
-    # Do tasks betweek server poll
+    # Do tasks between server poll
     try:
         server.poll()
     except OSError as error:

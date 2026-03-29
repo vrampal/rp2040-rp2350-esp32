@@ -16,6 +16,9 @@ pool = socketpool.SocketPool(wifi.radio)
 server = Server(
     pool,
     root_path="/static",
+    https=True,
+    certfile="selfsigned-pico-ecdsa.pem",
+    keyfile="selfsigned-pico-ecdsa.key",
     debug=True
 )
 
@@ -53,7 +56,7 @@ def led_off(request: Request):
 
 # --- Main ---
 host = str(wifi.radio.ipv4_address)
-server.start(host, port=80)
+server.start(host, port=443)
 while True:
     # Do tasks between server poll
     try:

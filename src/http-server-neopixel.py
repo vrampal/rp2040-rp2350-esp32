@@ -1,5 +1,6 @@
 import board
 import digitalio
+import neopixel
 import os
 import socketpool
 import wifi
@@ -38,17 +39,23 @@ def api(request: Request):
         "version":uname.version
     })
 
-led = digitalio.DigitalInOut(board.LED)
-led.direction = digitalio.Direction.OUTPUT
+# ----- LED colors ------
+BLACK = (  0,   0,   0)
+RED   = (  0, 255,   0)
+GREEN = (255,   0,   0)
+BLUE  = (  0,   0, 255)
+WHITE = (255, 255, 255)
+
+pixels = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.05, auto_write=True)
 
 @server.route("/led_on")
 def led_on(request: Request):
-    led.value = True
+    pixels[0] = WHITE
     return Response(request, content_type="text/plain", body="Done")
 
 @server.route("/led_off")
 def led_off(request: Request):
-    led.value = False
+    pixels[0] = BLACK
     return Response(request, content_type="text/plain", body="Done")
 
 # --- Main ---
